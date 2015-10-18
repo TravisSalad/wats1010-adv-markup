@@ -1,5 +1,10 @@
 /* Styles for the Advanced Markup assignment. */
-
+body {
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	background: lightyellow;
+}
 nav ul li{
 	display: inline;
 }
@@ -21,51 +26,6 @@ aside#sidebar ul li{
 	list-style: none;
 	display: inline;
 }
-#content {
-	float: left;
-	width: 750px;
-}
-p.bio-photo img{
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-}
-p.bio-photo{
-	text-align: center;
-	font-size: smaller;
-	float: right;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-}
-table caption {
-	border: 1px solid black;
-	font-weight: bold;
-	font-size: 20px;
-}
-table#selected_works {
-	float: left;
-	width: 400px;
-	border: 1px solid black;
-}
-table#selected_works tr, th, td{
-	border: 1px solid black;
-	text-align: left;
-}
-.poem {
-	border: 3px solid black;
-	list-style: none;
-	width: 325px;
-	margin: 30px;
-	padding: 20px;
-}
-body {
-	width: 970px;
-	margin-left: auto;
-	margin-right: auto;
-}
 .bottom-nav{
 	margin: 20px;
 	padding: 10px;
@@ -75,4 +35,52 @@ body {
 }
 footer {
 	clear: both;
+}
+header, h1{
+	background: lightblue;
+	padding: 5px;
+	margin-right: auto;
+}
+/* index.html css */
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width: 750px;
+}
+.poem {
+	font-size: 18px;
+	border: 1px solid black;
+	list-style: none;
+	width: 380px;
+	padding: 20px;
+}
+/* about-poe.html css */
+p.bio-photo img{
+	width: 200px;
+	padding: 10px;
+}
+p.bio-photo{
+	text-align: center;
+	font-size: smaller;
+	float: right;
+	width: 200px;
+	padding: 10px;
+}
+table caption {
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 20px;
+}
+table#selected_works {
+	width: 400px;
+	border: 1px solid black;
+}
+table#selected_works tr, th, td{
+	border: 1px solid black;
+	text-align: left;
+}
+/* interpretation.html css */
+#content h2 p {
+	float: left;
 }
