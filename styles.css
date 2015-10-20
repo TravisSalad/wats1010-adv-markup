@@ -1,86 +1,126 @@
 /* Styles for the Advanced Markup assignment. */
 body {
-	width: 970px;
+	display: block;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	background: lightyellow;
+	background: white;
+}
+header {
+	background: #1d4e89;
+	border: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 750px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+h1{
+	padding-left: 40px;
+	color: #FFFFEB;
+	font-family: sans-serif;
+}
+h2 {
+	font-family: serif;
+}
+nav ul {
+	background: #FFFFEB;
 }
 nav ul li{
+	border: 4px solid #1d4e89;
+	background: #FFFFEB;
 	display: inline;
 }
 a.active{
 	font-weight: bold;
 }
+a:hover {
+	background: #1d4e89;
+	color: #FFFFEB;
+}
 aside#sidebar{
 	float: right;
 	width: 250px;
 	position: absolute;
-	top: 130px;
 	right: 30px;
+	top: 0px;
 	background: lightgray;
 	margin: 20px;
 	padding: 20px;
 	border: 1px solid black;
+	border-radius: 10px;
 }
 aside#sidebar ul li{
 	list-style: none;
 	display: inline;
 }
+aside#sidebar a:hover{
+	background: none;
+}
 .bottom-nav{
-	margin: 20px;
-	padding: 10px;
+	background: #FFFFEB;	
 }
 .bibliography{
 	list-style: none;
 }
 footer {
+	color: #FFFFEB;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding: 5px;
+	border: 1px solid black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 750px;
+	background: #1d4e89;
 	clear: both;
 }
-header, h1{
-	background: lightblue;
-	padding: 5px;
-	margin-right: auto;
-}
-/* index.html css */
 #content {
-	margin-left: auto;
-	margin-right: auto;
-	float: left;
+	background: #FFFFEB;
 	width: 750px;
-}
-.poem {
-	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	padding: 5px;
 	border: 1px solid black;
-	list-style: none;
-	width: 380px;
-	padding: 20px;
 }
-/* about-poe.html css */
-p.bio-photo img{
+div.photo {
+	float:left;
 	width: 200px;
+	border-radius: 10px;
+	margin-right: 10px;
 	padding: 10px;
-}
-p.bio-photo{
 	text-align: center;
-	font-size: smaller;
-	float: right;
+}
+img {
 	width: 200px;
-	padding: 10px;
+	border-radius: 10px
 }
-table caption {
-	border: 1px solid black;
-	font-weight: bold;
-	font-size: 20px;
+.poem{
+	font-family: cursive;
+	list-style: none;
 }
-table#selected_works {
-	width: 400px;
+table#selected_works, caption, td, tr, th{
 	border: 1px solid black;
 }
-table#selected_works tr, th, td{
-	border: 1px solid black;
-	text-align: left;
+img.facebook-logo {
+	height: 30px;
+	width: 30px;
 }
-/* interpretation.html css */
-#content h2 p {
-	float: left;
+img.pinterest-logo {
+	height: 30px;
+	width: 30px;
+}
+img.twitter-logo {
+	height: 30px;
+	width: 30px;
+}
+img.mailto-logo {
+	height: 30px;
+	width: 30px;
 }
